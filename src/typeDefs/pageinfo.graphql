@@ -1,0 +1,15 @@
+type PageInfo {
+  startCursor: DateTime
+  endCursor: DateTime
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+}
+type Query {
+  _dummy: Boolean
+}
+type Mutation {
+  _dummy: Boolean
+}
+type Subscription {
+  _dummy: Boolean
+}
